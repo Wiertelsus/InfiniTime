@@ -55,7 +55,6 @@ void HeartRateTask::Work() {
           if (measurementStarted) {
             break;
           }
-          lastBpm = 0;
           StartMeasurement();
           measurementStarted = true;
           break;
